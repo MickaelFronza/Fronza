@@ -1,0 +1,1 @@
+function pegarEmail(){var e="Nome: "+escape(document.getElementById("id_nome").value)+"%0D%0ATelefone: "+escape(document.getElementById("id_telefone").value)+"%0D%0AMensagem: "+escape(document.getElementById("id_mensagem").value),n="mailto:developer.fernanda.ingrid@gmail.com.br?cc=&subject="+escape("Contato de Cliente")+"&body="+e;window.location.href=n}
